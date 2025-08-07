@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="docker.dockerWithChrome"/>
+  </listeners>
+  <test thread-count="2" parallel="classes" name="CBTS Automation Testing(failed)">
+    <classes>
+      <class name="testcases.homePageTC2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="tc001_Login"/>
+        </methods>
+      </class> <!-- testcases.homePageTC2 -->
+      <class name="testcases.homePageTC3">
+        <methods>
+          <include name="setUp"/>
+          <include name="tc002_VerifySearchFunctionality"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.homePageTC3 -->
+    </classes>
+  </test> <!-- CBTS Automation Testing(failed) -->
+</suite> <!-- Failed suite [Suite] -->
