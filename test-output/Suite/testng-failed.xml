@@ -6,13 +6,6 @@
   </listeners>
   <test thread-count="2" parallel="classes" name="CBTS Automation Testing(failed)">
     <classes>
-      <class name="testcases.homePageTC2">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="tc001_Login"/>
-        </methods>
-      </class> <!-- testcases.homePageTC2 -->
       <class name="testcases.homePageTC3">
         <methods>
           <include name="setUp"/>
@@ -20,6 +13,13 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- testcases.homePageTC3 -->
+      <class name="testcases.homePageTC2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="tc001_Login"/>
+        </methods>
+      </class> <!-- testcases.homePageTC2 -->
     </classes>
   </test> <!-- CBTS Automation Testing(failed) -->
 </suite> <!-- Failed suite [Suite] -->
