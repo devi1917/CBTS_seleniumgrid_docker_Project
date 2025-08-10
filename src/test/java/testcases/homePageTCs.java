@@ -23,7 +23,7 @@ public class homePageTCs extends dockerWithChrome{
 	@BeforeTest
 	void setUp() throws InterruptedException, IOException {
 		//setupChrome();
-		Runtime.getRuntime().exec("cmd /c start start_dockergrid.bat");
+		//Runtime.getRuntime().exec("cmd /c start start_dockergrid.bat");
 		Thread.sleep(15000);
 	}
 	
@@ -47,7 +47,7 @@ public class homePageTCs extends dockerWithChrome{
 	
 	@AfterTest
 	void tearDown() throws IOException, InterruptedException {
-		Runtime.getRuntime().exec("cmd /c start stop_dockergrid.bat");
+		//Runtime.getRuntime().exec("cmd /c start stop_dockergrid.bat");
 		Thread.sleep(15000);
 		//driver.quit();
 	}

@@ -70,7 +70,7 @@ public class dockerWithChrome implements ITestListener{
 
 	@Override
 	public void onTestStart(ITestResult result) {
-		String browserName = prop.getProperty("browser");
+		//String browserName = prop.getProperty("browser");
 
 		try {
 			url = new URL("http://localhost:4444/wd/hub");

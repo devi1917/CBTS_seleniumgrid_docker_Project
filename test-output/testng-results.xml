@@ -2,34 +2,34 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-05T10:43:15 IST" name="Suite" finished-at="2025-08-05T10:44:10 IST" duration-ms="54581">
+  <suite started-at="2025-08-08T13:39:51 IST" name="Suite" finished-at="2025-08-08T13:41:01 IST" duration-ms="69585">
     <groups>
     </groups>
-    <test started-at="2025-08-05T10:43:15 IST" name="CBTS Automation Testing" finished-at="2025-08-05T10:44:10 IST" duration-ms="54581">
+    <test started-at="2025-08-08T13:39:51 IST" name="CBTS Automation Testing" finished-at="2025-08-08T13:41:01 IST" duration-ms="69585">
       <class name="testcases.homePageTC3">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.homePageTC3@55634720]" started-at="2025-08-05T10:43:15 IST" name="setUp" finished-at="2025-08-05T10:43:15 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.homePageTC3@55634720]" started-at="2025-08-08T13:39:51 IST" name="setUp" finished-at="2025-08-08T13:39:51 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="tc002_VerifySearchFunctionality()[pri:0, instance:testcases.homePageTC3@55634720]" started-at="2025-08-05T10:43:15 IST" name="tc002_VerifySearchFunctionality" finished-at="2025-08-05T10:43:43 IST" duration-ms="27549" status="PASS">
+        <test-method signature="tc002_VerifySearchFunctionality()[pri:0, instance:testcases.homePageTC3@55634720]" started-at="2025-08-08T13:39:52 IST" name="tc002_VerifySearchFunctionality" finished-at="2025-08-08T13:40:32 IST" duration-ms="40475" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc002_VerifySearchFunctionality -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.homePageTC3@55634720]" started-at="2025-08-05T10:44:10 IST" name="tearDown" finished-at="2025-08-05T10:44:10 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.homePageTC3@55634720]" started-at="2025-08-08T13:41:01 IST" name="tearDown" finished-at="2025-08-08T13:41:01 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testcases.homePageTC3 -->
       <class name="testcases.homePageTC2">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.homePageTC2@54a7079e]" started-at="2025-08-05T10:43:15 IST" name="setUp" finished-at="2025-08-05T10:43:15 IST" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.homePageTC2@54a7079e]" started-at="2025-08-08T13:39:51 IST" name="setUp" finished-at="2025-08-08T13:39:51 IST" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="tc001_Login()[pri:0, instance:testcases.homePageTC2@54a7079e]" started-at="2025-08-05T10:43:15 IST" name="tc001_Login" finished-at="2025-08-05T10:44:09 IST" duration-ms="54195" status="PASS">
+        <test-method signature="tc001_Login()[pri:0, instance:testcases.homePageTC2@54a7079e]" started-at="2025-08-08T13:39:52 IST" name="tc001_Login" finished-at="2025-08-08T13:41:01 IST" duration-ms="69025" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc001_Login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.homePageTC2@54a7079e]" started-at="2025-08-05T10:44:10 IST" name="tearDown" finished-at="2025-08-05T10:44:10 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.homePageTC2@54a7079e]" started-at="2025-08-08T13:41:01 IST" name="tearDown" finished-at="2025-08-08T13:41:01 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
