@@ -88,18 +88,21 @@
     <version>5.3.4</version>
 </dependency>
 		<!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient -->
-<dependency>
+<!--<dependency>
     <groupId>org.apache.httpcomponents</groupId>
     <artifactId>httpclient</artifactId>
     <version>4.5.14</version>
+</dependency>-->
+<dependency>
+    <groupId>org.apache.httpcomponents.client5</groupId>
+    <artifactId>httpclient5</artifactId>
+    <version>5.5</version>
 </dependency>
-		<!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpcore-nio -->
 <dependency>
     <groupId>org.apache.httpcomponents</groupId>
     <artifactId>httpcore-nio</artifactId>
     <version>4.4.16</version>
 </dependency>
-		<!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpasyncclient -->
 <dependency>
     <groupId>org.apache.httpcomponents</groupId>
     <artifactId>httpasyncclient</artifactId>
