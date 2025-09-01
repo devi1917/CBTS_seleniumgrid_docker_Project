@@ -12,8 +12,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <!--<version>3.3.1</version>-->
-				<version>3.5.3</version>
+                <version>3.2.5</version>
                 <configuration>
                     <suiteXmlFiles>
                         <suiteXmlFile>testng.xml</suiteXmlFile>
@@ -23,15 +22,15 @@
         </plugins>
     </build>
     <properties>
-        <maven.compiler.source>21</maven.compiler.source>
-        <maven.compiler.target>21</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <dependencies>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>4.35.0</version>
+            <version>3.8.1</version>
         </dependency>
         <dependency>
             <groupId>commons-io</groupId>
@@ -70,6 +69,7 @@
     		<artifactId>selenium-java</artifactId>
     		<version>3.141.59</version>
 		</dependency>-->
+		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-remote-driver -->
 		<!--<dependency>
     		<groupId>org.seleniumhq.selenium</groupId>
     		<artifactId>selenium-remote-driver</artifactId>
@@ -77,44 +77,14 @@
 		</dependency>-->
 		<dependency>
     		<groupId>org.seleniumhq.selenium</groupId>
+    		<artifactId>selenium-java</artifactId>
+    		<version>4.0.0</version>
+		</dependency>
+		<dependency>
+    		<groupId>org.seleniumhq.selenium</groupId>
     		<artifactId>selenium-remote-driver</artifactId>
-   			 <version>4.35.0</version>
-		</dependency>
-		<dependency>
-    		<groupId>org.apache.httpcomponents.core5</groupId>
-    		<artifactId>httpcore5</artifactId>
-    		<version>5.3.4</version>
-		</dependency>
-		<!--<dependency>
-   			 <groupId>org.apache.httpcomponents</groupId>
-   			 <artifactId>httpclient</artifactId>
-    		 <version>4.5.14</version>
-		</dependency>-->
-		<dependency>
-    		 <groupId>org.apache.httpcomponents.client5</groupId>
-    		 <artifactId>httpclient5</artifactId>
-   			 <version>5.5</version>
-		</dependency>
-		<dependency>
-   			 <groupId>org.apache.httpcomponents</groupId>
-    		 <artifactId>httpcore-nio</artifactId>
-   			 <version>4.4.16</version>
-		</dependency>
-		<dependency>
-    		 <groupId>org.apache.httpcomponents</groupId>
-    		 <artifactId>httpasyncclient</artifactId>
-   			 <version>4.1.5</version>
-		</dependency>
-		<dependency>
-    		 <groupId>javax.servlet</groupId>
-    		 <artifactId>javax.servlet-api</artifactId>
-    		 <version>4.0.1</version> <!-- or your required version -->
-   			 <scope>provided</scope>
-		</dependency>
-		<dependency>
-   			 <groupId>org.apache.maven.plugins</groupId>
-   			 <artifactId>maven-compiler-plugin</artifactId>
-  			 <version>3.13.0</version>
+   			 <version>4.0.0</version>
 		</dependency>
     </dependencies>
+
 </project>
