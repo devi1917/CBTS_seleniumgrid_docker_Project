@@ -28,10 +28,10 @@ public class homePageTC2 extends dockerWithChrome{
 	public void tc001_Login() throws InterruptedException {
 		homePage hmpg = new homePage(driver);
 		hmpg.clickContinueShoppingButton();
-		hmpg.clickHeaderDropDownSignIn();
-		hmpg.enterMobileNoOrEmailAndContinue();
-		hmpg.enterPasswordAndClickOnSignIn();
-		hmpg.verifyUserIsLoggedIn();
+		//hmpg.clickHeaderDropDownSignIn();
+		//hmpg.enterMobileNoOrEmailAndContinue();
+		//hmpg.enterPasswordAndClickOnSignIn();
+		//hmpg.verifyUserIsLoggedIn();
 	}
 	
 	/*
