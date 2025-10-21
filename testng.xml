@@ -1,13 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite" parallel="classes" thread-count="2">
-	<listeners>
-        <listener class-name="docker.dockerWithChrome"></listener>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite  name="Suite" parallel="tests" thread-count="3">
+  <listeners>
+        <listener class-name="docker.DockerListener"></listener>
     </listeners>
-   <test name="CBTS Automation Testing">
+    <test name="ChromeTest">
+        <parameter name="browser" value="chrome"/>
         <classes>
-            <class name="testcases.homePageTC2"> </class>
-            <class name="testcases.homePageTC3"> </class>
+            <class name="testcases.LogInVerification"/>
+            <class name="testcases.HireSenseResumeUpload"/>
+            <class name="testcases.ResumeUploadUsingPasteOption"/>
+            <class name="testcases.ResumeUploadValidation"/>
+            <class name="testcases.TestCase4"/>
+            <class name="testcases.TestCase5"/>
+         	<class name="testcases.TestCase6"/>
+         	<class name="testcases.TestCase7"/>
+         	<class name="testcases.TestCase8"/>
+         	<class name="testcases.TestCase9"/>
+         	<class name="testcases.TestCase10"/>
+         	
         </classes>
-    </test>
-</suite> <!-- Suite -->
+    </test>  
+    <test name="FirefoxTest">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="testcases.TestCase1"/>
+            <class name="testcases.TestCase2"/>
+            <class name="testcases.TestCase3"/>
+            <class name="testcases.TestCase4"/>
+            <class name="testcases.TestCase5"/>
+         	<class name="testcases.TestCase6"/>
+         	<class name="testcases.TestCase7"/>
+         	<class name="testcases.TestCase8"/>
+         	<class name="testcases.TestCase9"/>
+         	<class name="testcases.TestCase10"/>
+        </classes>
+    </test> 
+    <test name="EdgeTest">
+        <parameter name="browser" value="edge"/>
+        <classes>
+            <class name="testcases.TestCase1"/>
+            <class name="testcases.TestCase2"/>
+            <class name="testcases.TestCase3"/>
+            <class name="testcases.TestCase4"/>
+            <class name="testcases.TestCase5"/>
+         	<class name="testcases.TestCase6"/>
+         	<class name="testcases.TestCase7"/>
+         	<class name="testcases.TestCase8"/>
+         	<class name="testcases.TestCase9"/>
+         	<class name="testcases.TestCase10"/>
+        </classes>
+    </test> 
+</suite> 
